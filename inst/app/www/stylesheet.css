@@ -1,0 +1,94 @@
+input[name="Guess"] {
+    margin-right: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+#meanBtn {
+    border-radius: 10px;
+}
+
+#mdBtn {
+    border-radius: 10px;
+}
+
+#smsdBtn {
+    border-radius: 10px;
+}
+
+#rmsdBtn {
+    border-radius: 10px;
+}
+
+.radioTxt {
+    vertical-align: middle;
+    max-width: 80%;
+}
+
+#ecdf {
+    resize: horizontal;
+    overflow: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#sdRow {
+    visibility: hidden;
+}
+
+#rmsdRow {
+    visibility: hidden;
+}
+
+#rmsdRow .irs-max {
+    visibility: hidden !important;
+}
+
+#rmsdRow .irs-min {
+    visibility: hidden !important;
+}
+
+#smsdRow {
+    visibility: hidden;
+}
+
+#smsdRow .irs-max {
+    visibility: hidden !important;
+}
+
+#smsdRow .irs-min {
+    visibility: hidden !important;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 15% 45% 8% 15% 15%;
+}
+
+.sliderCol {
+    width: 100%;
+}
+
+.buttonCol {
+    text-align: center;
+}
+
+.feedbackCol {
+    text-align: center;
+}
+
+#popSDToggle + span {
+    /* color: rgb(0,128,0); */
+    color: rgb(255,0,0);
+}
+
+#sampleSDToggle + span {
+    color: rgb(0,0,255);
+}
